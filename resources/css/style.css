@@ -1,3 +1,32 @@
+/* Universal Styling */
+
+html {
+  font-size: 16px;
+}
+
+.row {
+  margin: 0;
+}
+
+.white {
+  background-color: white;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+  transition: all 250ms ease-in-out;
+}
+
+a:hover {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+h1, h2, p, li{
+  cursor: default;
+}
+
 /* Navbar Styling */
 
 .nav-item,
@@ -23,4 +52,80 @@
 
 #jumbotron .content {
   text-shadow: 2px 2px 4px black;
+}
+
+#jumbotron .content h2 {
+  font-size: 2rem;
+}
+
+/* Skiils Section Styling */
+
+#skills {
+  margin-bottom: 2rem;
+}
+
+#skills h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#skills li {
+  font-size: 1.2rem;
+}
+
+/* Portfolio Styling */
+
+#portfolio {
+  background-color: rgba(25, 25, 25, 0.3)
+}
+
+#portfolio .header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+#portfolio .image-container {
+  opacity: 0.6;
+  transition: all 250ms ease-in-out;
+}
+
+#portfolio .image-container:hover {
+  opacity: 1;
+}
+
+#portfolio .item-container {
+  background-color: rgba(25, 25, 25, 0.3)
+  padding: 0 15px;
+  margin-bottom: 15px;
+}
+
+#portfolio .item {
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#portfolio .item h1, .item h2, .item p {
+  cursor: pointer;
+}
+
+#portfolio .content h2 {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+#portfolio .content p {
+  margin: 0.5rem;
+}
+
+#portfolio .bottom {
+  margin-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+#portfolio .bottom h1 {
+  margin-bottom: 1rem;
 }
