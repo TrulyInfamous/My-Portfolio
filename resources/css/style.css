@@ -1,0 +1,26 @@
+/* Navbar Styling */
+
+.nav-item,
+.navbar-brand {
+  text-shadow: 2px 2px 4px black;
+}
+
+.navbar-brand {
+  margin-left: 3%;
+}
+
+.navbar-nav {
+  margin-right: 3%;
+}
+
+/* Jumbotron Styling */
+
+#jumbotron .jumbotron {
+  background-color: grey;
+  color: white;
+  margin-top: 56px;
+}
+
+#jumbotron .content {
+  text-shadow: 2px 2px 4px black;
+}
