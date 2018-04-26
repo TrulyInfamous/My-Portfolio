@@ -27,6 +27,10 @@ h1, h2, p, li{
   cursor: default;
 }
 
+.bd-black {
+  border: 1px solid black;
+}
+
 /* Navbar Styling */
 
 .nav-item,
@@ -42,12 +46,20 @@ h1, h2, p, li{
   margin-right: 3%;
 }
 
+.navbar {
+  border-bottom: 1px solid black;
+  z-index: 11;
+}
+
 /* Jumbotron Styling */
 
 #jumbotron .jumbotron {
-  background-color: grey;
+  background-image: url('../banner_image.JPG');
+  background-position: center;
+  background-size: cover;
   color: white;
   margin-top: 56px;
+  margin-bottom: 0;
 }
 
 #jumbotron .content {
@@ -65,7 +77,7 @@ h1, h2, p, li{
 }
 
 #skills h1 {
-  margin-top: 2rem;
+  padding-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -74,10 +86,6 @@ h1, h2, p, li{
 }
 
 /* Portfolio Styling */
-
-#portfolio {
-  background-color: rgba(25, 25, 25, 0.3)
-}
 
 #portfolio .header {
   padding-top: 2rem;
@@ -128,4 +136,27 @@ h1, h2, p, li{
 
 #portfolio .bottom h1 {
   margin-bottom: 1rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* About Me Section */
+
+#about .heading {
+  padding-top: 2rem;
+}
+
+#about .row {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#about .image-container {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#about .about {
+  background-color: white;
+  border-radius: 4px;
 }
